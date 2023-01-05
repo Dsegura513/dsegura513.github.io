@@ -94,7 +94,7 @@
             
             <li><b>Edad:</b> 25 Años</li>
           </ul>
-          <button class="btn btn-theme-outline">Hoja de vida</button>
+          <button class="btn btn-theme-outline" onclick="openTab('../assets/img/curriculumDS.pdf','curriculumDS.pdf')" >Hoja de vida</button>
         </div>
       </div>
     </div>
@@ -423,5 +423,10 @@
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIA_zqjFMsJM_sxP9-6Pde5vVCTyJmUHM&callback=initMap"></script>
   
   <script src="https://smtpjs.com/v3/smtp.js"> </script> 
+  <script>
+    function openTab(path, fileName) {
+      window.open(path, '_blank');
+    }
+    </script>
 </body>
 </html>
